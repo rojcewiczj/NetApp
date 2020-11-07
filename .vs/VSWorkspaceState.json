@@ -1,8 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\API"
+    "\\API",
+    "\\API\\Controllers",
+    "\\API\\Data\\Migrations",
+    "\\API\\DTOs",
+    "\\API\\Entities",
+    "\\API\\Properties"
   ],
-  "SelectedNode": "\\NetApp.sln",
+  "SelectedNode": "\\API\\Controllers\\AccountController.cs",
   "PreviewInSolutionExplorer": false
 }
