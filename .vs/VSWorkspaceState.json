@@ -3,10 +3,11 @@
     "",
     "\\API",
     "\\API\\Controllers",
-    "\\API\\Data\\Migrations",
     "\\API\\DTOs",
     "\\API\\Entities",
-    "\\API\\Properties"
+    "\\API\\Interfaces",
+    "\\API\\Properties",
+    "\\API\\Services"
   ],
   "SelectedNode": "\\API\\Controllers\\AccountController.cs",
   "PreviewInSolutionExplorer": false
