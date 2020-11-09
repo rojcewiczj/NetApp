@@ -3,6 +3,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using API.Interfaces;
+using API.Services;
+using API.Data;
+using Microsoft.EntityFrameworkCore;
 using System.Text;
 
 namespace API.Extensions
@@ -19,7 +23,7 @@ public static class IdentityServiceExtensions
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["TokenKey"])),
                     ValidateIssuer = false,
                     ValidateAudience = false,
-                }
+                };
 
 
             });

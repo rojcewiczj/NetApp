@@ -5,10 +5,11 @@
     "\\API\\Controllers",
     "\\API\\DTOs",
     "\\API\\Entities",
+    "\\API\\Extensions",
     "\\API\\Interfaces",
     "\\API\\Properties",
     "\\API\\Services"
   ],
-  "SelectedNode": "\\API\\Controllers\\AccountController.cs",
+  "SelectedNode": "\\NetApp.sln",
   "PreviewInSolutionExplorer": false
 }
