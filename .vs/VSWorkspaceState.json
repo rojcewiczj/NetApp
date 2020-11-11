@@ -2,14 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\API",
-    "\\API\\Controllers",
-    "\\API\\DTOs",
-    "\\API\\Entities",
     "\\API\\Extensions",
     "\\API\\Interfaces",
     "\\API\\Properties",
-    "\\API\\Services"
+    "\\API\\Services",
+    "\\client",
+    "\\client\\src",
+    "\\client\\src\\app",
+    "\\client\\ssl"
   ],
-  "SelectedNode": "\\NetApp.sln",
+  "SelectedNode": "\\client\\angular.json",
   "PreviewInSolutionExplorer": false
 }
