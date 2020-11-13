@@ -2,15 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\API",
-    "\\API\\Extensions",
-    "\\API\\Interfaces",
     "\\API\\Properties",
     "\\API\\Services",
     "\\client",
     "\\client\\src",
     "\\client\\src\\app",
+    "\\client\\src\\app\\nav",
+    "\\client\\src\\app\\_services",
     "\\client\\ssl"
   ],
-  "SelectedNode": "\\client\\angular.json",
+  "SelectedNode": "\\client\\src\\app\\nav\\nav.component.css",
   "PreviewInSolutionExplorer": false
 }
