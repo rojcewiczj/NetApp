@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VkEEw4SEtQQV/2uIFX0VtPrm1TWhcbNFvk+0pF0bRSlRhCDvI8addw/DkqMNTEBfq9/RyWLFbNjMArQ/qDf8wg==",
+  "dgSpecHash": "NQH1LLNKIXzkIXsuWAQPjvRZz+LkQh4KvUtHAzRfCimwHq3pWAAzbWrRX1gUNWQh28sLokjRu79+qznf+7cNVg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rojce\\Documents\\GitHub\\NetApp\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\rojce\\documents\\GitHub\\NetApp\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rojce\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.9\\microsoft.aspnetcore.authentication.jwtbearer.3.1.9.nupkg.sha512",
     "C:\\Users\\rojce\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
