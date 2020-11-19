@@ -2,15 +2,16 @@
   "ExpandedNodes": [
     "",
     "\\API",
-    "\\API\\Errors",
     "\\API\\Middleware",
     "\\client",
     "\\client\\src",
     "\\client\\src\\app",
     "\\client\\src\\app\\errors",
-    "\\client\\src\\app\\errors\\test-errors",
-    "\\client\\src\\app\\nav"
+    "\\client\\src\\app\\errors\\not-found",
+    "\\client\\src\\app\\errors\\server-error",
+    "\\client\\src\\app\\nav",
+    "\\client\\src\\app\\_interceptors"
   ],
-  "SelectedNode": "\\client\\src\\app\\errors\\test-errors\\test-errors.component.ts",
+  "SelectedNode": "\\client\\src\\app\\app-routing.module.ts",
   "PreviewInSolutionExplorer": false
 }
