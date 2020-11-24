@@ -7,32 +7,39 @@ using API.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
+using API.Interfaces;
 using SQLitePCL;
+using Microsoft.AspNetCore.Razor.TagHelpers;
+using Microsoft.AspNetCore.Mvc.Infrastructure;
 
 namespace API.Controllers
 {
-
+    [Authorize]
     public class UsersController : BaseController
     {
-        private readonly DataContext _context;
-        public UsersController(DataContext context)
+       
+        private readonly IUserRepository _userRepository;
+        private readonly IMapper _mapper;
+
+        public UsersController(IUserRepository userRepository, IMapper mapper)
         {
-            _context = context;
+            _userRepository = userRepository;
+            _mapper = mapper;
         }
 
         [HttpGet]
-        [AllowAnonymous]
-        public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers()
+    
+        public async Task<ActionResult<IEnumerable<MemberDto>>> GetUsers()
         {
-            var users = await _context.Users.ToListAsync();
-            return users;
+            var users = await _userRepository.GetMembersAsync();
+           
+            return Ok(users);
         }
-        [Authorize]
+       
         [HttpGet("{id}")]
-        public async Task<ActionResult<AppUser>> GetUser(int id)
-        {
-            var user = await _context.Users.FindAsync(id);
-            return user;
+        public async Task<ActionResult<MemberDto>> GetUser(string username)
+        {   
+            return await _userRepository.GetMemberAsync(username);
         }
     }
 }

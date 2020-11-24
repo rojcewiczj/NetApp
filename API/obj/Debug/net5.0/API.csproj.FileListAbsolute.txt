@@ -61,3 +61,4 @@ C:\Users\rojce\documents\GitHub\NetApp\API\bin\Debug\net5.0\Microsoft.IdentityMo
 C:\Users\rojce\documents\GitHub\NetApp\API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\rojce\documents\GitHub\NetApp\API\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\rojce\documents\GitHub\NetApp\API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\rojce\documents\GitHub\NetApp\API\bin\Debug\net5.0\Data\UserSeedData.json
