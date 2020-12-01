@@ -4,8 +4,8 @@ using API.Interfaces;
 using API.Services;
 using API.Helpers;
 using API.Data;
-using Microsoft.EntityFrameworkCore;
 using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using System;
 
 

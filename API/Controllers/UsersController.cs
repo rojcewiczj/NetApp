@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using API.Data;
+using API.DTOs;
 using API.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
@@ -11,10 +12,11 @@ using API.Interfaces;
 using SQLitePCL;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
+using AutoMapper;
 
 namespace API.Controllers
 {
-    [Authorize]
+   
     public class UsersController : BaseController
     {
        
@@ -36,7 +38,7 @@ namespace API.Controllers
             return Ok(users);
         }
        
-        [HttpGet("{id}")]
+        [HttpGet("{username}")]
         public async Task<ActionResult<MemberDto>> GetUser(string username)
         {   
             return await _userRepository.GetMemberAsync(username);

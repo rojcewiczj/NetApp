@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rojce\\documents\\GitHub\\NetApp\\API\\API.csproj": {}
+    "C:\\Users\\rojce\\Documents\\GitHub\\NetApp\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rojce\\documents\\GitHub\\NetApp\\API\\API.csproj": {
+    "C:\\Users\\rojce\\Documents\\GitHub\\NetApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rojce\\documents\\GitHub\\NetApp\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\rojce\\Documents\\GitHub\\NetApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\rojce\\documents\\GitHub\\NetApp\\API\\API.csproj",
+        "projectPath": "C:\\Users\\rojce\\Documents\\GitHub\\NetApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\rojce\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rojce\\documents\\GitHub\\NetApp\\API\\obj\\",
+        "outputPath": "C:\\Users\\rojce\\Documents\\GitHub\\NetApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rojce\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,10 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
