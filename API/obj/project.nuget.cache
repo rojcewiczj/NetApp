@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7GEp4kH4AQeM3sz0FKbuvKkl2WdF8hxpudzp0/SvIqXVdLRTxGBefNEInQpE1cilap4v1jF2NDNIn3kLIqAR2Q==",
+  "dgSpecHash": "k1w8KJ/ygM/gbaR8WNYY6gfFWn+Ej77Aw1IM+T2/i56+bWi+lNtSnBbyV7W6prfQVFJ9WnUT9nWdZvqZKTzDpg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rojce\\Documents\\GitHub\\NetApp\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\rojce\\documents\\GitHub\\NetApp\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rojce\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\rojce\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
